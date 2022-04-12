@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <title>News</title>
+  </head>
+  <body>
+    <!-- Navigation bar for xl-->  
+    
+      <nav class="navbar navbar-expand-md navbar-light border-bottom">
+          <a class="navbar-brand" href="#"><img src="/images/icons8-airbnb.svg" alt=""><span>NEWS</span></i></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div style="z-index: 10; background-color:  white;" class="collapse navbar-collapse w-100 flex-grow-1"  id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Media assets</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                  <img src="/images/icons8-globe-16.png" alt="">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">English</a>
+                  <a class="dropdown-item" href="#">AU and NZ</a>
+                  <a class="dropdown-item" href="#">India</a>
+                  <a class="dropdown-item" href="#">Malaysia</a>
+                  <a class="dropdown-item" href="#">United Kingdom</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" style="font-family:Arial, FontAwesome; width: 60px; line-height: 1rem;" id="expand" placeholder="&#xF002" aria-label="Search">          </form>
+          </div>
+        </nav>
+        <!-- Hero Section -->
+        <div id="hero" class="mb-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row no-gutters d-flex align-items-center justify-content-between" id="featured">
+                            <div class="col-12 d-flex flex-column align-items-center flex-md-row">
+                              <div id="Featured-title" class="d-flex col-xl-4 col-lg-4 col-md-5 flex-column align-items-center justify-content-around">
+                                  <div class="col-xl-12 col-lg-11 col-md-12 d-flex flex-column fl align-items-start">
+                                      <p class="text-muted mb-2">March 29, 2022</p>
+                                      <h2  id="f-article-title"><a href="#">Update on Airbnb.org's work to support refugees fleeing Ukraine</a></h2>
+                                      <button class="btn btn-primary border-0 btn-lg mt-4" style="background-image: radial-gradient(circle at center center,#ff385c 0,#e61e4d 27.5%,#e31c5f 40%,#d70466 57.5%,#bd1e59 75%,#bd1e59 100%) !important;">Read More</button>
+                                  </div>
+                              </div>
+                              <div class="col-xl-8 col-lg-8 col-md-7 col-sm-12 col-12 ml-auto order-md-1" id="featured-img-wrapper">
+                                  <img class="col-12 col-lg-12 m-0" id="featured-img" src="/images/refugees.jpg" alt="">
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Latest News -->
+      
+          <div class="container-fluid d-flex flex-wrap">
+      
+            <div class="row first-section mt-5">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex flex-wrap justify-content-start">
+                <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12 d-flex flex-wrap ml-2" >
+                  <div class="col-12 no-gutters p-0" style="grid-area: header;">
+                    <h2>Latest Articles</h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 d-flex flex-wrap p-0" id="latest-articles">
+                      <div id="article-1" class=" col-xl-5 col-lg-5 col-md-5 col-sm-12 d-flex align-items-start align-items-sm-center mb-sm-3 p-0" style="grid-area: cani;">
+                        <div class="mr-3 align-self-start" style="margin-top: .9rem;">
+                          <img id="article-img" class="mr-3" src="/images/can-farm.jpg" alt="">
+                        </div>
+                        <div id="article-title" class="d-flex align-items-start flex-column pl-0 col-xl-8 col-lg-6 col-md-6 col-sm-8">
+                          <h2><a href="#">Live the high life with a cannabis infused stay at Sonoma Hills Farm</a></h2>
+                          <p class="text-muted">April 5, 2022</p>
+                        </div>
+                      </div>
+                      <div id="article-1" class="col-xl-5 col-lg-5 col-md-5 col-sm-12 d-flex align-items-start mb-sm-3 p-0">
+                        <div class="mr-3">
+                          <img id="article-img" src="/images/travel.jpg" alt="">
+                        </div>
+                        <div id="article-title" class="d-flex align-items-start flex-column pl-0 col-xl-8 col-lg-6 col-md-6 col-sm-8">
+                          <h2><a href="#">Living anywhere is more popular than ever for US Black and Hispanic communities</a></h2>
+                          <p class="text-muted">March 31, 2022</p>
+                        </div>
+                      </div>
+                      <div id="article-1" class="col-xl-5 col-lg-5 col-md-5 col-sm-12 d-flex align-items-start mb-5 mb-sm-3 p-0 m-2" style="grid-area: museum;">
+                        <div class="mr-3">
+                          <img id="article-img" src="/images/musem.jpg" alt="">
+                        </div>
+                        <div id="article-title" class="d-flex align-items-start flex-column pl-0 col-xl-8 col-lg-6 col-md-6 col-sm-8">
+                          <h2><a href="#">Phuket’s iconic heritage mansion listed on Airbnb for ultimate designer getaway</a></h2>
+                          <p class="text-muted">March 28, 2022</p>
+                        </div>
+                      </div>
+                      <div id="article-1" class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-5 d-flex align-items-start mb-sm-3 mr-0 p-0">
+                        <div id="article-img" style="background-color: #EA235C; width: 90px; height: 90px;" class="mr-3 d-flex">
+                          <img src="/images/icons-airbnb-small copy.svg" alt="" class="m-auto" id="airbnb-small">
+                        </div>
+                        <div id="article-title" class="d-flex align-items-start flex-column pl-0 col-xl-8 col-lg-6 col-md-6 col-sm-8">
+                          <h2><a href="">Working with nonprofits and others to support refugees fleeing Ukraine</a></h2>
+                          <p class="text-muted">March 24, 2022</p>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+      
+                </div>
+                <div id="follow-us" class="ml-1 col-xl-3 col-lg-2 no-gutters border-left mb-5">
+                  <div class="row">
+                    <div class="col-12">
+                      <h2 class="col-12 col-lg-8 ml-0">Follow Us</h2>
+                      <p>Get the latest news and travel inspiration.</p>
+                      <div id="icons" class="d-flex">
+                        <img src="/images/twitter.png" alt=""><img src="/images/instagram.png" alt=""><img src="/images/linkedin.png"
+                          alt=""><img src="/images/facebook.png" alt="">
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        <div class="container-fluid mt- mb-5 ml-0"><div  id="future-travel">
+          <div class="row">
+            <div class="col-6 ml-3">
+              <h2>The future of travel</h2>
+              <p>The ways people travel, work and live are blurring. From product innovations, to the latest travel trends,
+                discover how the future of travel is being shaped by Airbnb.</p>
+            </div>
+          </div>
+        </div>
+      
+      
+       <div class="container-fluid no-gutters">
+          <div class="row no-gutters">
+            <div id="half-black" class="no-gutters col-xl-12 mt-5 mb-5 pb-4 position-relative">
+              <div id="future-mobile" class="d-none text-white row">
+                <div class="col-6 ml-4 mb-4 col-sm-10">
+                  <h2 class="mb-2 mt-4">The future of travel</h2>
+                  <p class="col-md-6">The ways people travel, work and live are blurring. From product innovations, to the latest travel trends,
+                     discover how the future of travel is being shaped by Airbnb.</p>
+                </div>
+              </div>
+              <div id="carousel" class="d-flex w-100">
+                      <div id="card" class="d-flex flex-column mr-4 ml-4">
+                          <div>
+                              <img id="card-image" src="/images/dude's-around-table.jpg" alt="">
+                          </div>
+                          <div class="text-wrapper d-flex flex-column justify-content-between mt-4">
+                            <p id="carousel-text"><a href="#">Businesses get creative with flexible living policies as remote work becomes more permenant</a></p>
+                            <p class="text-white">February 24, 2022</p>
+                          </div>
+                      </div>
+                      <div id="card" class="d-flex flex-column mr-4 ml-4 align-items-start">
+                        <div>
+                            <img id="card-image" src="/images/cheers.jpg" alt="">
+                        </div>
+                        <div class="text-wrapper d-flex flex-column justify-content-between mt-4">
+                          <p id="carousel-text"><a href="#">Travelers seek sun and family time this spring</a></p>
+                          <p class="text-white">February 10, 2022</p>
+                        </div>
+                      </div>
+                      <div id="card" class="d-flex flex-column mr-4 ml-4">
+                        <div>
+                            <img id="card-image" src="/images/fall-feel.jpg" alt="">
+                        </div>
+                        <div class="text-wrapper d-flex flex-column justify-content-between mt-4">
+                          <p id="carousel-text"><a href="#">Travelers are getting back to the norm this spring</a></p>
+                          <p class="text-white">February 1, 2022</p>
+                        </div>
+                      </div>
+                      <div id="card" class="d-flex flex-column mr-4 ml-4">
+                        <div>
+                            <img id="card-image" src="/images/booth.jpg" alt="">
+                        </div>
+                        <div class="text-wrapper d-flex flex-column justify-content-between mt-4">
+                          <p id="carousel-text"><a href="#">Businesses are starting to open up back to normal.</a></p>
+                          <p class="text-white">February 1, 2022</p>
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="container-fluid mt-5" id="categories">
+          <div class="row w-75 justify-content-center">
+            <div class="col-8 d-flex align-items-start">
+              <h2>Categories</h2>
+            </div>
+          </div>
+          <div id="ctg-btns" class="row justify-content-center">
+            <div class="col-9 mt-4 mb-4 d-flex justify-content-start flex-wrap">
+              <a href="#" role="button" class="btn btn-outline-secondary rounded-pill mr-2">All</a>
+              <a href="#" role="button" class="btn btn-outline-secondary rounded-pill mr-2">Company</a>
+              <a href="#" role="button" class="btn btn-outline-secondary rounded-pill mr-2">Stays</a>
+              <a href="#" role="button" class="btn btn-outline-secondary rounded-pill mr-2">Experiences</a>
+              <a href="#" role="button" class="btn btn-outline-secondary rounded-pill mr-2">Policy</a>
+              <a href="#" role="button" class="btn btn-outline-secondary rounded-pill mr-2">Community</a>
+              <a href="#" role="button" class="btn btn-outline-secondary rounded-pill mr-2">Airbnb.org</a>
+            </div>
+          </div>
+          
+        
+          <div class="container-fluid">
+  
+            <div class="row flex-wrap">
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                <div id="row-change" class="row flex-column">
+                  <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4">
+                    <img src="/images/big-rig.jpg" class="img-fluid" style="border-radius: 9px;" alt="">
+                  </div>
+                  <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4">
+                    <p class=""><a href=""></a>Bad Bunny hosts big rig on Airbnb</p>
+                    <p class="text-muted">March 23, 2022</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                <div id="row-change" class="row flex-column">
+                  
+                  <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4">
+                    <img src="/images/refugees.jpg" class="img-fluid" alt="" style="aspect-ratio: 3/2; border-radius: 9px;">
+                  </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4">
+                  <p><a href=""></a>Save the Children Sweeden partners with Airbnb.org to provide free housing to refugees fleeing Ukraine</p>
+                  <p class="text-muted">March 23, 2022</p>
+                </div>             
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                <div id="row-change" class="row flex-column">
+                  
+                  <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4"><img src="/images/pool-side.jpg" class="img-fluid" alt="" style="aspect-ratio: 3/2; border-radius: 9px;"></div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4">
+                  <p><a href=""></a>Get ready to dive into summer by booking your pooside stay early</p>
+                  <p class="text-muted">March 21, 2022</p>
+                </div>              
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                <div id="row-change" class="row flex-column">
+                  
+                  <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4"><img src="/images/canada.jpg" class="img-fluid" alt="" style="aspect-ratio: 3/2; border-radius: 9px;"></div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4">
+                  <p><a href=""></a>Airbnb delivered over $1billion in taxes to communities across the US & Canada in 2021</p>
+                  <p class="text-muted">March 17, 2022</p>
+                </div>              
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                <div id="row-change" class="row flex-column">
+                  
+                  <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4"><img src="/images/female.jpg" class="img-fluid" alt="" style="aspect-ratio: 3/2; border-radius: 9px;"></div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4">
+                  <p><a href=""></a>The 10 best times of the year to host in Canada</p>
+                  <p class="text-muted">March 17, 2022</p>
+                </div>              
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                <div id="row-change" class="row flex-column">
+                  
+                  <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4"><img src="/images/male.jpg" class="img-fluid" alt="" style="aspect-ratio: 3/2; border-radius: 9px;"></div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4">
+                  <p><a href=""></a>Outreach to governments in Europe to support refugees fleeing Ukraine</p>
+                  <p class="text-muted">March 16, 2022</p>
+                </div>              
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                <div id="row-change" class="row flex-column">
+                  
+                  <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4"><img src="/images/elevate-nYgy58eb9aw-unsplash (1).jpg" class="img-fluid" alt="" style="aspect-ratio: 3/2; border-radius: 9px;"></div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4">
+                  <p><a href=""></a>Supporting CBCI's inaugrual Fannie Lou Hamer fellowship program</p>
+                  <p class="text-muted">March 16, 2022</p>
+                </div>              
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                <div id="row-change" class="row flex-column">
+                  
+                  <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4"><img src="/images/smallbnb copy.png" class="img-fluid" alt="" style="aspect-ratio: 3/2; border-radius: 9px;"></div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4">
+                  <p><a href=""></a>A $10 million matching donation to support refugees fleeing Ukraine</p>
+                  <p class="text-muted">March 15, 2022</p>
+                </div>              
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                <div id="row-change" class="row flex-column">
+                  
+                  <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4"><img src="/images/duy-pham-Cecb0_8Hx-o-unsplash (1).jpg" class="img-fluid" alt="" style="aspect-ratio: 3/2; border-radius: 9px;"></div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4">
+                  <p><a href=""></a>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque quasi alias inventore, rem voluptatem consectetur.</p>
+                  <p class="text-muted">March 14, 2022</p>
+                </div>              
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                <div id="row-change" class="row flex-column">
+                  
+                  <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4"><img src="/images/cabin.jpg" class="img-fluid" alt="" style="aspect-ratio: 3/2; border-radius: 9px;"></div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4">
+                  <p><a href=""></a>New Canadian Hosts tap into the travel revolution</p>
+                  <p class="text-muted">March 14, 2022</p>
+                </div>              
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+                <div id="row-change" class="row flex-column">
+                  
+                  <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4"><img src="/images/german-min.jpg" class="img-fluid" alt="" style="aspect-ratio: 3/2; border-radius: 9px;"></div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6 p-4">
+                  <p><a href=""></a>German ministry partners with #Accommodation-Ukraine and Airbnb.org to provide housing to refugees fleeing Ukraine</p>
+                  <p class="text-muted">March 10, 2022</p>
+                </div>              
+              </div>
+                
+              <div class="col-12">
+                <button class="btn btn-outline-secondary rounded ml-3" >More</button>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container-fluid mt-5 mb-5">
+          <div class="row no-gutters">
+            <div class="col-12 d-flex flex-wrap">
+              <div id="newsletter-img" class="no-gutters col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 position-relative p-0">
+                <img src="/images/person.jpg" class="col-xl-12 no-gutters" alt="">
+              </div>
+              <div class="p-0 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column bg-dark align-items-center justify-content-center text-center">
+                <div class="col-12 p-5 d-flex flex-column align-items-center justify-content-center">
+                  <h2 class="text-white">Sign up for our newsletter!</h2>
+                  <p class="text-white mt-3">Enter your email to receive the latest news and updates from Airbnb News.</p>
+                  <button class="btn-lg btn-primary mt-3 rounded" style=" outline: none !important; border: none !important; background-image: radial-gradient(circle at center center,#ff385c 0,#e61e4d 27.5%,#e31c5f 40%,#d70466 57.5%,#bd1e59 75%,#bd1e59 100%) !important;">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-12 d-flex flex-wrap align-items-start justify-content-around">
+                <div id="footer-list" class="col-3 " >
+                  <ul class="list-unstyled">
+                    <p>support</p>
+                    <li><a>Help Center</a></li>
+                    <li><a>Safety information</a></li>
+                    <li><a>Cancellation options</a></li>
+                    <li><a>Our COVID-10 Response</a></li>
+                    <li><a>Supporting people with disabilities</a></li>
+                    <li><a>Report a neighborhood concern</a></li>
+                  </ul>
+                </div>
+                <div id="footer-list" class="col-3 d-flex flex-wrap align-items-start justify-content-around" >
+                  <ul class="list-unstyled">
+                    <p>Community</p>
+                    <li><a>Airbnb.org: disaster relief housing</a></li>
+                    <li><a>Support Afgan refugees</a></li>
+                    <li><a>Cancellation options</a></li>
+                    <li><a>Combating discrimination</a></li>
+                  </ul>
+                </div>
+                <div id="footer-list" class="col-3 d-flex flex-wrap align-items-start justify-content-around" >
+                  <ul class="list-unstyled">
+                    <p> hosting</p>
+                    <li><a>Try hosting</a></li>
+                    <li><a>AirCover: protection for hosts</a></li>
+                    <li><a>Explore hosting resources</a></li>
+                    <li><a>Visit our community forum</a></li>
+                    <li><a>How to host responsibly</a></li>
+                  </ul>
+                </div>
+                <div id="footer-list" class="col-3 d-flex flex-wrap align-items-start justify-content-around" >
+                  <ul class="list-unstyled">
+                    <p>About</p>
+                    <li><a>Newsroom</a></li>
+                    <li><a>Learn about new features</a></li>
+                    <li><a>Letter from our founders</a></li>
+                    <li><a>Careers</a></li>
+                    <li><a>Investors</a></li>
+                    <li><a>Airbnb Luxe</a></li>
+                  </ul>
+                </div>
+                
+               </div>
+              </div>
+            <div class="row">
+              <div class="col-12 d-flex align-items-start">
+                <div class="col-12 mt-3">
+                  <p class="mb-1" style="font-size: .9rem;">disclaimer</p>
+                  <p style="font-size: .8rem;" class="text-muted w-50 p-2">
+                    The Airbnb Newsroom is aimed at journalists. All Homes and Experiences referenced on the Airbnb Newsroom are intended purely to inspire and illustrate. Airbnb does not recommend or endorse specific Home or Experience listings on the Airbnb platform.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mt-5">
+                <div class="hr w-100"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 d-flex mt-3 mb-3">
+                <div class="col-4 d-flex justify-content-around">
+                  <p>&#169; Airbnb, Inc rights reserved</p>
+                  <p class="">&middot; Privacy</p>
+                  <p class="">&middot; Terms</p>
+                  <p class="">&middot; Sitemap</p>
+                </div>
+                <div style="" class="col- ml-auto d-flex ml-auto">
+                  <img class="p-2" src="/images/twitter.png" alt="">
+                  <img class="p-2" src="/images/instagram.png" alt="">
+                  <img class="p-2" src="/images/linkedin.png" alt="">
+                  <img class="p-2" src="/images/facebook.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+    
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+</html>
