@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 nav {
   height: 80px;
   height: 80px;
@@ -21,6 +24,36 @@ ul p {
   display: block;
   margin-right: 5px;
 }
+#privacy {
+  font-size: 0.78rem;
+}
+@media screen and (max-width: 992px) {
+  #mobile-gone {
+    display: none;
+  }
+  #footer-reverse,
+  #bnb-cr {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap !important;
+  }
+  #copyright {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  #footer-list {
+    justify-content: start !important;
+  }
+  #footer-socials {
+    justify-content: center !important;
+  }
+  #privacy-list {
+    justify-content: center !important;
+  }
+}
 .col-xl-12 {
   padding-right: 10px I !important;
 }
@@ -38,7 +71,7 @@ h5 {
 
 a {
   z-index: 10;
-  color: black !important;
+  color: inherit !important;
 }
 a:hover,
 a:visited {
@@ -230,4 +263,10 @@ a:visited {
 .col-xl-3,
 .col-xl-12 {
   padding-right: 0;
+}
+#footer-icon {
+  max-width: 20px;
+  max-height: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
