@@ -221,6 +221,9 @@ a:visited {
   #row-change {
     flex-direction: row !important;
   }
+  #disclaim-text {
+    width: 100% !important;
+  }
 }
 #carousel {
   display: flex;
